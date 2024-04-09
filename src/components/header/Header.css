@@ -1,0 +1,25 @@
+header {
+    background: var(--clr-bg-primary);
+    outline: 2px solid var(--clr-border-primary);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.logo_a, .logo_b {
+    background: var(--clr-bg-secondary);
+    border: 1px solid var(--clr-border-primary);
+    border-radius: 10%;
+    width: 8rem;
+}
+
+.logo_a {
+    box-shadow: 5px 5px 2px var(--clr-border-secondary);
+}
+
+.logo_b {
+    box-shadow: -5px 5px 2px var(--clr-border-secondary);
+}

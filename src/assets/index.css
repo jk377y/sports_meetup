@@ -1,0 +1,11 @@
+
+:root {
+    --clr-bg-primary: rgb(227, 252, 255);
+    --clr-bg-secondary: rgba(200, 200, 200, 0.67);
+    --clr-border-primary: rgba(0, 0, 0, 1);
+    --clr-border-secondary: rgba(0, 0, 0, 0.35);
+}
+
+html {
+    background-color: var(--clr-bg-primary);
+}
