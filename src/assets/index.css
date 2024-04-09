@@ -27,8 +27,17 @@
     --fs-h4: 24px;
     --fs-h5: 20px;
     --fs-h6: 18px;
-}
 
-html {
-    background-color: var(--clr-bg-primary);
-}
+    --transition-default: all 0.3s;
+    
+}    
+
+html { background-color: var(--clr-bg-primary);}
+
+/* .title {font-size: calc(var(--fs-h1) + 30px);} */
+h1 { font-size: var(--fs-h1);}
+h2 { font-size: var(--fs-h2);}
+h3 { font-size: var(--fs-h3);}
+h4 { font-size: var(--fs-h4);}
+h5 { font-size: var(--fs-h5);}
+h6 { font-size: var(--fs-h6);}
