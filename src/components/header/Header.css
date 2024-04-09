@@ -1,6 +1,6 @@
 header {
     background: var(--clr-bg-primary);
-    outline: 2px solid var(--clr-border-primary);
+    box-shadow: 0px 5px 2px var(--clr-border-secondary);
 }
 
 .container {
@@ -12,8 +12,9 @@ header {
 .logo_a, .logo_b {
     background: var(--clr-bg-secondary);
     border: 1px solid var(--clr-border-primary);
-    border-radius: 10%;
-    width: 8rem;
+    border-radius: 15px;
+    min-width: 75px;
+    width: 10%;
 }
 
 .logo_a {
@@ -22,4 +23,39 @@ header {
 
 .logo_b {
     box-shadow: -5px 5px 2px var(--clr-border-secondary);
+}
+
+@media screen and (max-width: 576px){
+    .logo_b {display: none;}
+}
+
+.title_area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+a {
+    font-size: var(--fs-h4);
+    padding: 0.25rem;
+    color: var(--clr-text-primary);
+    border: 3px solid transparent;
+}
+
+a:hover {
+    background-color: var(--clr-bg-secondary);
+    border: 3px solid var(--clr-border-primary);
+    cursor: pointer;
+}
+
+a:active {
+    border: var(--border-inset);
 }
