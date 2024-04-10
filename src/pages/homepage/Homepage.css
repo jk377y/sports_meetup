@@ -45,20 +45,20 @@ section h1 {
 }
 
 
-.image-gallery {
+.image_gallery {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 5px;
 }
 
-.image-gallery img {
+.image_gallery img {
     width: 250px;
     height: auto;
 }
 
 @media screen and (max-width: 992px){
-    .image-gallery img {
+    .image_gallery img {
         width: 200px;
         height: auto;
     }

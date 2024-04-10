@@ -49,7 +49,7 @@ const Homepage = () => {
                 <section>
                     <h1>Welcome to our page!</h1>
                     
-                    <div className="image-gallery">
+                    <div className="image_gallery">
                         {[...Array(20)].map((_, index) => (
                             <img key={index} src={placeholderImage} alt={`Image ${index + 1}`} />
                         ))}
