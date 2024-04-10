@@ -55,7 +55,7 @@ section h1 {
 }
 
 .image_gallery img {
-    width: 250px;
+    width: 350px;
     height: auto;
     border-radius: 1rem;
     border: var(--border-primary);
@@ -64,7 +64,7 @@ section h1 {
 
 @media screen and (max-width: 992px){
     .image_gallery img {
-        width: 200px;
+        width: 250px;
         height: auto;
     }
 }
