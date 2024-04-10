@@ -47,11 +47,19 @@ ul {
     gap: 3rem;
 }
 
+li {
+    /* background-color: red; */
+    flex-grow: 1;
+    text-align: center;
+}
+
 .nav_links {
     font-size: var(--fs-h4);
-    padding: 0.25rem 0.5rem;
+    width: 100%;
+    text-decoration: none;
     border-radius: 5px;
-	cursor: pointer;
+    cursor: pointer;
+    padding: 0.1rem 0.25rem;
     color: var(--clr-text-primary);
     border: var(--btn-border-primary);
     transition: var(--transition-default);
@@ -60,6 +68,7 @@ ul {
 .nav_links:hover {
     background-color: var(--clr-bg-secondary);
     border: var(--btn-border-hover);
+    color: var(--clr-text-secondary);
 }
 
 .nav_links:active {

@@ -12,7 +12,7 @@ const Header = ({ signedIn }) => {
                     <img src={LOGO} alt='logo' />
                 </a>
                 <div className='title_area'>
-                    <h1>Sports Meet and Greet</h1>
+                    <h1 className='title'>Sports Meet and Greet</h1>
                     <nav>
                         <ul>
                             <li><a href="/" className='nav_links'>Home</a></li>

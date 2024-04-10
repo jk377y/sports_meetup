@@ -8,7 +8,6 @@
 }
 
 :root {
-    --clr-bg-primary: rgb(255, 255, 255);
     --clr-bg-primary: rgb(209, 255, 236);
     --clr-bg-secondary: rgb(164, 201, 185);
     --clr-bg-tertiary: rgb(255, 0, 0);
@@ -42,7 +41,7 @@
 
 html { background-color: var(--clr-bg-primary);}
 
-/* .title {font-size: calc(var(--fs-h1) + 30px);} */
+.title {font-size: calc(var(--fs-h1) + 30px);}
 h1 { font-size: var(--fs-h1);}
 h2 { font-size: var(--fs-h2);}
 h3 { font-size: var(--fs-h3);}
