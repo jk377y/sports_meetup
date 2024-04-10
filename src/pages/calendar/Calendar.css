@@ -1,4 +1,4 @@
-.calendar-container {
+.calendar_container {
 	margin-top: 3rem;
 	width: 100%;
 	padding: 0 2rem;
@@ -18,7 +18,7 @@
 	background-color: var(--clr-bg-tertiary);
 }
 
-.calendar-header {
+.calendar_header {
     display: flex;
     justify-content: center;
 	align-items: center;
@@ -30,40 +30,42 @@
 	border: var(--border-primary);
 }
 
+.calendar_month {
+    min-width: 250px;
+    text-align: center;
+}
 
-
-.calendar-header button {
+.calendar_header button {
 	font-size: var(--fs-h6);
     padding: 0.25rem 0.5rem;
     border-radius: 5px;
 	cursor: pointer;
     border: var(--btn-border-primary);
-    background-color: var(--btn-bg-primary);
+    background-color: var(--btn-bg-secondary);
     cursor: pointer;
     transition: var(--transition-default);
 }
 
-.calendar-header button:hover {
-    background-color: var(--btn-bg-primary-hover);
+.calendar_header button:hover {
+    background-color: var(--btn-bg-secondary-hover);
     border: var(--btn-border-hover);
     color: var(--clr-text-secondary);
 }
 
-.calendar-header button:active {
+.calendar_header button:active {
     border: var(--btn-border-active);
 }
 
 
 
-
-.calendar-grid {
+.calendar_grid {
 	display: grid;
 	grid-template-columns: repeat(7, 1fr);
 	border-collapse: collapse;
     gap: 3px;
 }
 
-.calendar-day {
+.calendar_day {
 	border: var(--border-primary);
 	padding: 10px;
     height: 65px;

@@ -41,20 +41,20 @@ const Calendar = () => {
 
         return (
            <div className="calendar">
-                <div className="calendar-header">
-                    <button onClick={prevMonth} className='calendar-button'>Prev</button>
-                    <h1>{monthsOfYear[month]} {year}</h1>
-                    <button onClick={nextMonth} className='calendar-button'>Next</button>
+                <div className="calendar_header">
+                    <button onClick={prevMonth} className='calendar_button'>Prev</button>
+                    <h1 className='calendar_month'>{monthsOfYear[month]} {year}</h1>
+                    <button onClick={nextMonth} className='calendar_button'>Next</button>
                 </div>
-                <div className="calendar-grid">
+                <div className="calendar_grid">
                     {daysOfWeek.map(day => (
-                        <div key={day} className="calendar-day days">{day}</div>
+                        <div key={day} className="calendar_day days">{day}</div>
                     ))}
                     {blanks.map((_, index) => (
-                        <div key={index} className="calendar-day blank"></div>
+                        <div key={index} className="calendar_day blank"></div>
                     ))}
                     {days.map(day => (
-                        <div key={day} className="calendar-day dates">{day}</div>
+                        <div key={day} className="calendar_day dates">{day}</div>
                     ))}
                 </div>
             </div>
@@ -62,7 +62,7 @@ const Calendar = () => {
     };
 
     return (
-        <div className="calendar-container">
+        <div className="calendar_container">
             <h1 className="calendar_title" >Planned Events</h1>
             {renderCalendar()}
         </div>
