@@ -63,7 +63,7 @@ const Calendar = () => {
 
     return (
         <div className="calendar-container">
-            <h1 className="title" >Planned Events</h1>
+            <h1 className="calendar_title" >Planned Events</h1>
             {renderCalendar()}
         </div>
     );

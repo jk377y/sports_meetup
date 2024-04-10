@@ -4,9 +4,10 @@
 	padding: 0 2rem;
 }
 
-.title {
+.calendar_title {
 	text-align: center;
     margin-bottom: 2rem;
+    font-size: calc(var(--fs-h1) + 15px);
 }
 
 .calendar {
