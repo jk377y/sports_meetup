@@ -48,13 +48,13 @@ const Calendar = () => {
                 </div>
                 <div className="calendar-grid">
                     {daysOfWeek.map(day => (
-                        <div key={day} className="calendar-day">{day}</div>
+                        <div key={day} className="calendar-day days">{day}</div>
                     ))}
                     {blanks.map((_, index) => (
                         <div key={index} className="calendar-day blank"></div>
                     ))}
                     {days.map(day => (
-                        <div key={day} className="calendar-day">{day}</div>
+                        <div key={day} className="calendar-day dates">{day}</div>
                     ))}
                 </div>
             </div>

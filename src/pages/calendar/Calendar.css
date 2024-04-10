@@ -10,7 +10,7 @@
 }
 
 .calendar {
-	border: 2px solid var(--clr-border-secondary);
+	/* border: 2px solid var(--clr-border-secondary); */
 	border-radius: 10px;
 	background-color: var(--clr-bg-primary);
 }
@@ -22,6 +22,7 @@
 	align-items: center;
 	padding: 10px;
     gap: 3rem;
+    margin-bottom: 5px;
 	background-color: var(--clr-bg-secondary);
 	border-bottom: 2px solid var(--clr-border-secondary);
 }
@@ -56,12 +57,23 @@
 	display: grid;
 	grid-template-columns: repeat(7, 1fr);
 	border-collapse: collapse;
+    gap: 3px;
 }
 
 .calendar-day {
-	border: 1px solid #ccc;
+	border: var(--border-primary);
 	padding: 10px;
 	text-align: center;
+}
+
+.days {
+    font-weight: bold;
+    font-size: var(--fs-h5);
+}
+
+.dates {
+    font-size: var(--fs-h6);
+    border: var(--border-primary);
 }
 
 .blank {
