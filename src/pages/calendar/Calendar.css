@@ -12,12 +12,13 @@
 
 .calendar {
 	/* border: 2px solid var(--clr-border-secondary); */
+    padding: 10px;
 	border-radius: 10px;
-	background-color: var(--clr-bg-primary);
+    border: var(--border-primary);
+	background-color: var(--clr-bg-tertiary);
 }
 
 .calendar-header {
-    border-radius: 10px 10px 0 0;
     display: flex;
     justify-content: center;
 	align-items: center;
@@ -25,7 +26,8 @@
     gap: 3rem;
     margin-bottom: 5px;
 	background-color: var(--clr-bg-secondary);
-	border-bottom: 2px solid var(--clr-border-secondary);
+    border-radius: 10px 10px 0 0;
+	border: var(--border-primary);
 }
 
 
@@ -65,6 +67,7 @@
 	border: var(--border-primary);
 	padding: 10px;
 	text-align: center;
+    height: 65px;
 }
 
 .days {
