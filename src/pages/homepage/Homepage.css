@@ -14,7 +14,7 @@ aside {
     height: 100vh;
     background-color: var(--clr-bg-tertiary);
     border: var(--border-primary);
-    border-radius: 0.5rem;
+    border-radius: 1rem;
 }
 
 .events_items {

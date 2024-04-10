@@ -14,7 +14,7 @@ header {
 .logo_a, .logo_b {
     background: var(--clr-bg-secondary);
     border: 1px solid var(--clr-border-primary);
-    border-radius: 15px;
+    border-radius: 1rem;
     min-width: 75px;
     width: 10%;
 }
