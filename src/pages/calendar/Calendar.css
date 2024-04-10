@@ -26,15 +26,31 @@
 	border-bottom: 2px solid var(--clr-border-secondary);
 }
 
-.calendar-header h1 {
-	margin: 0;
-}
+
 
 .calendar-header button {
-	border: none;
-	background-color: transparent;
+	font-size: var(--fs-h6);
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
 	cursor: pointer;
+    border: var(--btn-border-primary);
+    background-color: var(--btn-bg-primary);
+    cursor: pointer;
+    transition: var(--transition-default);
 }
+
+.calendar-header button:hover {
+    background-color: var(--btn-bg-primary-hover);
+    border: var(--btn-border-hover);
+    color: var(--clr-text-secondary);
+}
+
+.calendar-header button:active {
+    border: var(--btn-border-active);
+}
+
+
+
 
 .calendar-grid {
 	display: grid;

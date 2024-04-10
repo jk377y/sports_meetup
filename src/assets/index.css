@@ -9,17 +9,25 @@
 
 :root {
     --clr-bg-primary: rgb(255, 255, 255);
-    --clr-bg-secondary: rgb(255, 239, 226);
-    /* --clr-bg-secondary: rgb(255, 176, 112); */
-    /* --clr-bg-tertiary: rgb(255, 237, 222); */
+    --clr-bg-primary: rgb(209, 255, 236);
+    --clr-bg-secondary: rgb(164, 201, 185);
     --clr-bg-tertiary: rgb(255, 0, 0);
     
-    --clr-border-primary: rgba(0, 0, 0, 0.25);
-    --clr-border-secondary: rgba(0, 0, 0, 0.5);
+    --clr-border-primary: rgba(0, 0, 0, 0.5);
+    --clr-border-secondary: rgba(0, 0, 0, 0.25);
+    
+    --btn-bg-primary: rgb(13,110,253);
+    --btn-bg-primary-hover: rgb(11, 85, 196);
+    --btn-bg-secondary: rgb(25,135,84);
+    --btn-bg-secondary-hover: rgb(20, 104, 64);
+    
+    --btn-border-primary: 2px solid transparent;
+    --btn-border-hover: 2px solid var(--clr-border-primary);
+    --btn-border-active: 2px inset var(--clr-border-secondary);
 
-    --border-inset: 3px inset var(--clr-border-secondary);
 
     --clr-text-primary: rgb(0, 0, 0);
+    --clr-text-secondary: rgb(255, 255, 255);
 
     --fs-h1: 36px;
     --fs-h2: 32px;
@@ -28,7 +36,7 @@
     --fs-h5: 20px;
     --fs-h6: 18px;
 
-    --transition-default: all 0.3s;
+    --transition-default: all 0s;
     
 }    
 

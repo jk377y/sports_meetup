@@ -42,9 +42,9 @@ const Calendar = () => {
         return (
            <div className="calendar">
                 <div className="calendar-header">
-                    <button onClick={prevMonth}>Prev</button>
+                    <button onClick={prevMonth} className='calendar-button'>Prev</button>
                     <h1>{monthsOfYear[month]} {year}</h1>
-                    <button onClick={nextMonth}>Next</button>
+                    <button onClick={nextMonth} className='calendar-button'>Next</button>
                 </div>
                 <div className="calendar-grid">
                     {daysOfWeek.map(day => (

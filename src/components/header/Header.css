@@ -49,20 +49,21 @@ ul {
 
 .nav_links {
     font-size: var(--fs-h4);
-    padding: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+	cursor: pointer;
     color: var(--clr-text-primary);
-    border: 3px solid transparent;
+    border: var(--btn-border-primary);
     transition: var(--transition-default);
 }
 
 .nav_links:hover {
     background-color: var(--clr-bg-secondary);
-    border: 3px solid var(--clr-border-primary);
-    cursor: pointer;
+    border: var(--btn-border-hover);
 }
 
 .nav_links:active {
-    border: var(--border-inset);
+    border: var(--btn-border-active);
 }
 
 
