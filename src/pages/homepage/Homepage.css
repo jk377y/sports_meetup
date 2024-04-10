@@ -1,3 +1,4 @@
+/* see index.css for variable values */
 
 .home_container {
     display: flex;
@@ -13,6 +14,7 @@ aside {
     height: 100vh;
     background-color: var(--clr-bg-tertiary);
     border: var(--border-primary);
+    border-radius: 0.5rem;
 }
 
 .events_items {
@@ -49,12 +51,15 @@ section h1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 10px;
 }
 
 .image_gallery img {
     width: 250px;
     height: auto;
+    border-radius: 1rem;
+    border: var(--border-primary);
+    box-shadow: var(--box-shadow-primary);
 }
 
 @media screen and (max-width: 992px){
