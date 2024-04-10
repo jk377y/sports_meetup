@@ -66,13 +66,13 @@
 .calendar-day {
 	border: var(--border-primary);
 	padding: 10px;
-	text-align: center;
     height: 65px;
 }
 
 .days {
     font-weight: bold;
     font-size: var(--fs-h5);
+    text-align: center;
 }
 
 .dates {
